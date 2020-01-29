@@ -42,16 +42,19 @@ For windows:
 ```
 pip install pipenv
 ```
-cd into the project directory
+Open the terminal and cd into the project directory
 ```
 cd adjust_case_study_solution
 ```
-
+Actiavte the environment for the project
 ```
 pipenv install
 
 pipenv shell
 
+```
+Run the following command for execute the task
+```
 chmod +x init.sh
 
 ./init.sh
