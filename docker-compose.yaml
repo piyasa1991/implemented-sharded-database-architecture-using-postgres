@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  db1:
+    image: postgres
+    ports:
+        - "5430:5432"
+  db2:
+    image: postgres
+    ports:
+        - "5431:5432"
+  db3:
+    image: postgres
+    ports:
+        - "5432:5432"
