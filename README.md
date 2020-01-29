@@ -8,8 +8,13 @@ This is a tutorial on how to use sharded architecture using SQLalchemy and Pytho
 
 
 ## How to run
-brew install pipenv
+```brew install pipenv
+
 pipenv install
+
 pipenv shell
+
 chmod +x init.sh
+
 ./init.sh
+```
