@@ -2,7 +2,7 @@
 
 ## Requirements
 - Python >=3.6
-- pip
+- pip3 >=19.3.1
 - Docker
 
 ## Solution:
@@ -19,7 +19,7 @@ brew install pipenv
 ```
 For windows and Linux:
 ```
-pip install pipenv
+pip3 install pipenv
 ```
 
 Open the terminal and browse into the project directory
