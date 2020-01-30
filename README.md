@@ -34,10 +34,13 @@ pipenv install
 pipenv shell
 
 ```
-Run the following command for execute the task
+Give permission for the shell script
 ```
 chmod +x init.sh
 
-./init.sh
-
 ```
+Run the shell script to run the pipeline
+```
+./init.sh
+```
+
