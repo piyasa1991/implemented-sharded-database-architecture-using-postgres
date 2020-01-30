@@ -6,6 +6,15 @@ from sqlalchemy.dialects.postgresql import TIMESTAMP
 Base = declarative_base()
 
 class InstallByCountry(Base):
+    """
+    ORM Model for the table installs_by_country
+    
+    Arguments:
+        Base {[type]} -- [description]
+    
+    Returns:
+        [type] -- [description]
+    """
     __tablename__ = 'installs_by_country'
     uid = Column(Integer)
     index = Column(Integer, primary_key=True)
