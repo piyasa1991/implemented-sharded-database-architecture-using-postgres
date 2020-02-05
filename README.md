@@ -25,7 +25,7 @@ pip3 install pipenv
 Open the terminal and browse into the project directory
 ```
 
-cd adjust_case_study_solution
+cd implemented-sharded-database-architecture-using-postgres
 ```
 Actiavte the environment for the project
 ```
